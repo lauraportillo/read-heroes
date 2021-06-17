@@ -1,6 +1,6 @@
 # Read Heroes
 
-# # Your Comic Bookshop
+### Your Comic Bookshop
 
 Hi! This is **Laura Portillo Rodríguez** and here is my proposal to solve the Front-end Test to being part of Soamee team.
 

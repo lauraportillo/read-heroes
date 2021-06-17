@@ -1,5 +1,4 @@
 [
-  
   {
     "name":"Wonder woman",
     "isbn":"0001",
@@ -8,32 +7,32 @@
     "description": "An incredible collection that marks the long-awaited return of legendary WONDER WOMAN writer Greg Rucka, featuring stunning art from Nicola Scott (EARTH 2) and Liam Sharp (GEARS OF WAR)—WONDER WOMAN: THE REBIRTH DELUXE EDITION BOOK 1 collects stories from one of the breakout hits of DC Rebirth. This series is a perfect jumping-on point into the world of Wonder Woman and the first hardcover collection of the new Rebirth series!"
   },
     {
-      "name":"Spider-man",
+      "name":"Spider-man, New Beginnings ",
       "isbn":"0002",
-      "author":"S. Dawson Delilah",
+      "author":"Delilah S. Dawson",
       "image":"./images/spiderman.jpg",
-      "description": "El cómic de Spiderman especialmente recomendado para jóvenes lectores, que pueden descubrir en estas páginas al asombroso trepamuros y sus increíbles amigos. Peter Parker, miles morales, spider-gwen... ¡Tus arañas favoritas están en este tebeo!"
+      "description": "Peter Parker has thrown down with deadly villains and legendary heroes, but high school life might be his greatest challenge yet. Luckily, he has a shot at making the grade with a little help from his new friends... Miles Morales and Gwen Stacy!"
     },
     {
-      "name":"",
+      "name":"Jessica Jones, Alias",
       "isbn":"0003",
-      "author":"",
-      "image":"./images/avengers.jpg",
-      "description":""
+      "author":"Brian Michael Bendis ",
+      "image":"./images/jessicajones.jpg",
+      "description":"Meet Jessica Jones. Once upon a time, she was a costumed super hero — but not a very good one. Her powers were unremarkable compared to the amazing abilities of the costumed icons that populate the Marvel Universe. In a city of Marvels, she never found her niche. The self-destructive would-be Avenger is now the owner and sole employee of Alias Investigations — a small, private-investigative firm specializing in superhuman cases. When she uncovers the potentially explosive secret of one hero’s true identity, Jessica’s life immediately becomes expendable. But her wit, charm and intelligence just may help her survive another day. Thrust into the midst of a conspiracy that reaches the highest levels, has Jessica burned too many bridges to turn to old friends for help?"
     },
     {
-      "name":"",
+      "name":"Avengers World",
       "isbn":"0004",
-      "author":"",
-      "image":"./images/avengers.jpg",
-      "description":""
+      "author":"Jonathan Hickman",
+      "image":"./images/avengersworld.jpg",
+      "description":"The greatest heroes in comics, together as one expansive, unbeatable team! The Avengers' first mission takes them to Mars, but the secrets of the Garden lead right back to Earth's Savage Land! Plus, the Shi'ar Imperial Guard and Captain Universe races to decipher the code hidden in the Avengers' recent adventures!"
     },
     {
-      "name":"",
+      "name":"Luke Cage, Sins of the Father",
       "isbn":"0005",
       "author":"",
-      "image":"./images/avengers.jpg",
-      "description":""
+      "image":"./images/lukecage.jpg",
+      "description":"The man who made Luke Cage into the unbreakable hero he is today, Dr. Noah Burstein, is dead. But when Luke heads to New Orleans for the funeral, it turns out that there may be more to his father figure's death than he realized. Shady billionaires, amped-up gangs, and a shadowy figure from his past propel Luke into a world of mystery. The hunt he begins may end up destroying him...but when Cage is looking for answers, it's a bad day for anyone in his way!"
     },
     {
       "name":"",
