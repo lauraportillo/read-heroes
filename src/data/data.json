@@ -1,8 +1,111 @@
 [
+  
+  {
+    "name":"Wonder woman",
+    "isbn":"0001",
+    "author":"Greg Rucka",
+    "image":"./images/wonderwoman.jpg",
+    "description": "An incredible collection that marks the long-awaited return of legendary WONDER WOMAN writer Greg Rucka, featuring stunning art from Nicola Scott (EARTH 2) and Liam Sharp (GEARS OF WAR)—WONDER WOMAN: THE REBIRTH DELUXE EDITION BOOK 1 collects stories from one of the breakout hits of DC Rebirth. This series is a perfect jumping-on point into the world of Wonder Woman and the first hardcover collection of the new Rebirth series!"
+  },
+    {
+      "name":"Spider-man",
+      "isbn":"0002",
+      "author":"S. Dawson Delilah",
+      "image":"./images/spiderman.jpg",
+      "description": "El cómic de Spiderman especialmente recomendado para jóvenes lectores, que pueden descubrir en estas páginas al asombroso trepamuros y sus increíbles amigos. Peter Parker, miles morales, spider-gwen... ¡Tus arañas favoritas están en este tebeo!"
+    },
     {
       "name":"",
-      "isbn":"",
+      "isbn":"0003",
       "author":"",
-      "image":"./images/avengers.jpg"
+      "image":"./images/avengers.jpg",
+      "description":""
+    },
+    {
+      "name":"",
+      "isbn":"0004",
+      "author":"",
+      "image":"./images/avengers.jpg",
+      "description":""
+    },
+    {
+      "name":"",
+      "isbn":"0005",
+      "author":"",
+      "image":"./images/avengers.jpg",
+      "description":""
+    },
+    {
+      "name":"",
+      "isbn":"0006",
+      "author":"",
+      "image":"./images/avengers.jpg",
+      "description":""
+    },
+    {
+      "name":"",
+      "isbn":"0007",
+      "author":"",
+      "image":"./images/avengers.jpg",
+      "description":""
+    },
+    {
+      "name":"",
+      "isbn":"0008",
+      "author":"",
+      "image":"./images/avengers.jpg",
+      "description":""
+    },
+    {
+      "name":"",
+      "isbn":"0009",
+      "author":"",
+      "image":"./images/avengers.jpg",
+      "description":""
+    },
+    {
+      "name":"",
+      "isbn":"0010",
+      "author":"",
+      "image":"./images/avengers.jpg",
+      "description":""
+    },
+    {
+      "name":"",
+      "isbn":"0011",
+      "author":"",
+      "image":"./images/avengers.jpg",
+      "description":""
+    },
+    {
+      "name":"",
+      "isbn":"0012",
+      "author":"",
+      "image":"./images/avengers.jpg",
+      "description":""
+    },
+    {
+      "name":"",
+      "isbn":"0013",
+      "author":"",
+      "image":"./images/avengers.jpg",
+      "description":""
+    },
+    {
+      "name":"",
+      "isbn":"0014",
+      "author":"",
+      "image":"./images/avengers.jpg",
+      "description":""
+    },
+    {
+      "name":"",
+      "isbn":"0015",
+      "author":"",
+      "image":"./images/avengers.jpg",
+      "description":""
     }
   ]
+
+
+
