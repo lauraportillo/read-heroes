@@ -15,7 +15,7 @@ function App() {
   //estados
   const [comics] = useState(data);
   return (
-    <div>
+    <div className="containerBody">
       <Header />
       <main className="containerMain">
         <Switch>

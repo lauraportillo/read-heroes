@@ -12,8 +12,8 @@ const ComicList = (props) => {
   });
 
   return (
-    <div className="">
-      <ul className="ComicList">{renderComic}</ul>
+    <div>
+      <ul className="comicList">{renderComic}</ul>
     </div>
   );
 };
