@@ -3,12 +3,9 @@
 .comic {
   width: 140px;
   height: 210px;
-  //   padding: 20px;
-  border: solid red 1px;
   margin: 10px;
   display: flex;
   flex-direction: column;
-  //   justify-content: center;
   align-items: center;
 }
 
@@ -28,7 +25,10 @@
 .comic__title {
   font-size: 10px;
   text-transform: uppercase;
-  margin: 10px;
+  color: $color5;
+}
+.comic__title:hover {
+  color: $color1;
 }
 
 @media all and (min-width: 768px) {
