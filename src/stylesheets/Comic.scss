@@ -1,9 +1,8 @@
 @import 'Variables';
 
 .comic {
-  width: 140px;
-  height: 210px;
-  margin: 10px;
+  width: 80px;
+  margin: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,7 +15,7 @@
 }
 
 .comic__image {
-  width: 140px;
+  width: 80px;
 }
 .comic__image--photo {
   width: 100%;
@@ -27,12 +26,29 @@
   text-transform: uppercase;
   color: $color5;
 }
-.comic__title:hover {
-  color: $color1;
-}
 
 @media all and (min-width: 768px) {
+  .comic {
+    width: 120px;
+    margin: 10px;
+  }
+  .comic__image {
+    width: 120px;
+  }
+  .comic__title {
+    font-size: 13px;
+  }
 }
 
 @media all and (min-width: 1280px) {
+  .comic {
+    width: 140px;
+    margin: 10px;
+  }
+  .comic__image {
+    width: 140px;
+  }
+  .comic__title {
+    font-size: 13px;
+  }
 }
