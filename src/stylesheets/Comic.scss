@@ -14,8 +14,8 @@
 }
 
 .comic:active {
-  transition: all 0.2s ease-in-out;
-  transform: scale(0.8);
+  transition: all 0.1s ease-in-out;
+  transform: scale(0.9);
 }
 
 .comic__image {
@@ -28,7 +28,7 @@
 .comic__title {
   font-size: 10px;
   text-transform: uppercase;
-  color: $color5;
+  color: $color6;
 }
 
 @media all and (min-width: 768px) {
