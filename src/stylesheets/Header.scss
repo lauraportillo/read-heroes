@@ -8,10 +8,13 @@
   width: 100%;
 }
 .containerHeader__title {
+  color: $color6;
   font-size: 50px;
   text-transform: capitalize;
+  text-shadow: 5px 5px 10px $color5;
 }
 .containerHeader__subtitle {
+  color: $color6;
   font-size: 20px;
   font-weight: 200;
 }
