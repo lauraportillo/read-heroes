@@ -18,8 +18,8 @@ function App() {
 
   // cada comic tiene que tener su enlace
   const renderComicDetail = (props) => {
-    const isbn = parseInt(props.match.params.isbn);
-    const comicFound = comics.find((comic) => comic.isbn === isbn);
+    const id = parseInt(props.match.params.id);
+    const comicFound = comics.find((comic) => comic.id === id);
 
     if (comicFound) {
       return <ComicDetail comic={comicFound} />;
@@ -34,7 +34,7 @@ function App() {
           <Route path="/" exact>
             <ComicList comics={comics} />
           </Route>
-          <Route path="/comic/:isbn" render={renderComicDetail} />
+          <Route path="/comic/:id" render={renderComicDetail} />
         </Switch>
       </main>
       <Footer />

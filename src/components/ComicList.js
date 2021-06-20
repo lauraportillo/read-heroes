@@ -5,7 +5,7 @@ import '../stylesheets/ComicList.scss';
 const ComicList = (props) => {
   const renderComic = props.comics.map((comic) => {
     return (
-      <li key={comic.isbn.toString()}>
+      <li key={comic.id}>
         <Comic comic={comic} />
       </li>
     );
