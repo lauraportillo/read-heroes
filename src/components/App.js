@@ -14,10 +14,10 @@ import '../stylesheets/App.scss';
 import '../stylesheets/Reset.scss';
 
 function App() {
-  //estados
+  // State
   const [comics] = useState(data);
 
-  // cada comic tiene que tener su enlace
+  // Each comic needs a link
   const renderComicDetail = (props) => {
     const id = parseInt(props.match.params.id);
     const comicFound = comics.find((comic) => comic.id === id);
