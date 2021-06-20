@@ -1,0 +1,13 @@
+.detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail__image {
+  width: 280px;
+}
+.detail__image--photo {
+  width: 100%;
+}

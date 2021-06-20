@@ -8,10 +8,12 @@ const ComicDetail = (props) => {
       <div className="detail__image">
         <img className="detail__image--photo" src={props.comic.image} alt={props.comic.name} />
       </div>
-      <h2 className="detail__title">{props.comic.name}</h2>
-      <h3 className="detail__subtitle">{props.comic.isbn}</h3>
-      <h3 className="detail__subtitle">{props.comic.author}</h3>
-      <p className="detail__description">{props.comic.description}</p>
+      <div>
+        <h2 className="detail__title">{props.comic.name}</h2>
+        <h3 className="detail__subtitle">{props.comic.isbn}</h3>
+        <h3 className="detail__subtitle">{props.comic.author}</h3>
+        <p className="detail__description">{props.comic.description}</p>
+      </div>
 
       <Link className="detail__btn" to="/">
         <h3> {'<'} go back </h3>
