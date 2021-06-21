@@ -1,20 +1,21 @@
 @import 'Variables';
 
-.labels {
-  color: $color6;
+.containerForm__labels {
+  color: $color2;
   font-size: 16px;
   text-transform: capitalize;
 }
-.inputs {
+.containerForm__inputs {
   min-width: 200px;
   margin-bottom: 5px;
+  outline: none;
 }
 
 @media all and (min-width: 768px) {
-  .labels {
+  .containerForm__labels {
     font-size: 18px;
   }
-  .inputs {
+  .containerForm__inputs {
     min-width: 300px;
     margin-bottom: 15px;
   }

@@ -7,12 +7,12 @@ function Input(props) {
   };
   return (
     <>
-      <label className="labels" htmlFor={props.name}>
+      <label className="containerForm__labels" htmlFor={props.name}>
         {props.label}
       </label>
       <input
         onChange={handleInputEvent}
-        className={`inputs ${props.className}`}
+        className={`containerForm__inputs ${props.className}`}
         type={props.type}
         name={props.name}
         id={props.name}

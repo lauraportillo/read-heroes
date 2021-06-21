@@ -33,7 +33,7 @@ const Form = (props) => {
         handleInput={props.handleInput}
       />
 
-      <label className="labels" htmlFor="description">
+      <label className="containerForm__labels" htmlFor="description">
         Description
       </label>
       <textarea
@@ -41,8 +41,9 @@ const Form = (props) => {
         placeholder=" Comic description... "
         name="description"
         required
-        className="inputs"
+        className="containerForm__inputs"
       ></textarea>
+      <input type="submit" value="Submit >" class="containerForm__submit" />
     </form>
   );
 };

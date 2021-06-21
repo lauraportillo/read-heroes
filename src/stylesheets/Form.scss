@@ -6,7 +6,19 @@
   justify-content: center;
   align-items: flex-start;
 }
+.containerForm__submit {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: $color6;
+  border: none;
+  background-color: transparent;
+}
+
 @media all and (min-width: 768px) {
+  .containerForm__submit {
+    font-size: 20px;
+  }
 }
 
 @media all and (min-width: 1280px) {
