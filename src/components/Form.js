@@ -33,14 +33,20 @@ const Form = (props) => {
         value={props.isbn}
         handleInput={props.handleInput}
       />
-      <Input
+      {/* <Input
         name="description"
         label="Description"
         placeholder=" Enter a comic description"
         classname=""
         value={props.description}
         handleInput={props.handleInput}
-      />
+      /> */}
+
+      <label className="" htmlFor="description">
+        Description
+      </label>
+      <textarea id="description" placeholder="¿Qué necesitas?" name="description" required className=""></textarea>
+
       <ImageForm />
     </form>
   );
