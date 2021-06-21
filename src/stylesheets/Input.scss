@@ -1,0 +1,10 @@
+@import 'Variables';
+
+.labels {
+  color: $color6;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.inputs {
+  min-width: 200px;
+}

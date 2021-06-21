@@ -5,7 +5,7 @@ import '../stylesheets/CreateComic.scss';
 const CreateComic = (props) => {
   return (
     <div className="containerCreate">
-      <h3>Create new comic here</h3>
+      <h3 className="containerCreate__title">Create new comic here</h3>
       <Form />
     </div>
   );

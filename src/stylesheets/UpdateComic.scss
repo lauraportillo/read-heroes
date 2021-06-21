@@ -1,6 +1,14 @@
+@import 'Variables';
+
 .containerUpdate {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.containerUpdate__title {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: $color6;
 }

@@ -1,6 +1,5 @@
 import React from 'react';
 import Input from './Input';
-import ImageForm from './ImageForm';
 import '../stylesheets/Form.scss';
 
 const Form = (props) => {
@@ -33,21 +32,17 @@ const Form = (props) => {
         value={props.isbn}
         handleInput={props.handleInput}
       />
-      {/* <Input
-        name="description"
-        label="Description"
-        placeholder=" Enter a comic description"
-        classname=""
-        value={props.description}
-        handleInput={props.handleInput}
-      /> */}
 
-      <label className="" htmlFor="description">
+      <label className="labels" htmlFor="description">
         Description
       </label>
-      <textarea id="description" placeholder="¿Qué necesitas?" name="description" required className=""></textarea>
-
-      <ImageForm />
+      <textarea
+        id="description"
+        placeholder=" Comic description... "
+        name="description"
+        required
+        className="inputs"
+      ></textarea>
     </form>
   );
 };
