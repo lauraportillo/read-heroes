@@ -9,7 +9,7 @@
   },
     {
       "id": 2,
-      "name":"Spider-man, New Beginnings ",
+      "name":"Spider-man, New Beginnings",
       "isbn":"0002",
       "author":"Delilah S. Dawson",
       "image":"./images/spiderman.jpg",
@@ -19,7 +19,7 @@
       "id": 3,
       "name":"Jessica Jones, Alias",
       "isbn":"0003",
-      "author":"Brian Michael Bendis ",
+      "author":"Brian Michael Bendis",
       "image":"./images/jessicajones.jpg",
       "description":"Meet Jessica Jones. Once upon a time, she was a costumed super hero — but not a very good one. Her powers were unremarkable compared to the amazing abilities of the costumed icons that populate the Marvel Universe. In a city of Marvels, she never found her niche. The self-destructive would-be Avenger is now the owner and sole employee of Alias Investigations — a small, private-investigative firm specializing in superhuman cases. When she uncovers the potentially explosive secret of one hero’s true identity, Jessica’s life immediately becomes expendable. But her wit, charm and intelligence just may help her survive another day. Thrust into the midst of a conspiracy that reaches the highest levels, has Jessica burned too many bridges to turn to old friends for help?"
     },

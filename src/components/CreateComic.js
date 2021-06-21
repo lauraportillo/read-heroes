@@ -4,8 +4,8 @@ import '../stylesheets/CreateComic.scss';
 
 const CreateComic = (props) => {
   return (
-    <div>
-      <h3>Create a new comic by entering its data</h3>
+    <div className="containerCreate">
+      <h3>Create new comic here</h3>
       <Form />
     </div>
   );

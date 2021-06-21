@@ -4,7 +4,7 @@ import '../stylesheets/UpdateComic.scss';
 
 const UpdateComic = (props) => {
   return (
-    <div>
+    <div className="containerUpdate">
       <h3>Update a comic here</h3>
       <Form />
     </div>
