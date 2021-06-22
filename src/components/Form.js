@@ -1,5 +1,6 @@
 import React from 'react';
 import Input from './Input';
+import Textarea from './Textarea';
 import '../stylesheets/Form.scss';
 
 const Form = (props) => {
@@ -33,16 +34,15 @@ const Form = (props) => {
         handleInput={props.handleInput}
       />
 
-      <label className="containerForm__labels" htmlFor="description">
-        Description
-      </label>
-      <textarea
-        id="description"
-        placeholder=" Comic description... "
+      <Textarea
         name="description"
-        required
-        className="containerForm__inputs"
-      ></textarea>
+        label="Description"
+        placeholder=" Comic description..."
+        classname=""
+        value={props.description}
+        handleInput={props.handleInput}
+      />
+
       <input type="submit" value="Submit >" class="containerForm__submit" />
     </form>
   );
