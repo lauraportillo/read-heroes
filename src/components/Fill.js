@@ -1,19 +1,16 @@
 import React from 'react';
 import Input from './Input';
 import Textarea from './Textarea';
-import '../stylesheets/Form.scss';
+import '../stylesheets/Fill.scss';
 
-const Form = (props) => {
-  const handleForm = (ev) => {
-    ev.preventDefault();
-  };
+const Fill = (props) => {
   return (
-    <form className="containerForm" onSubmit={handleForm}>
+    <section className="containerFill">
       <Input
         name="name"
         label="Title"
         placeholder=" Jessica Jones"
-        classname=""
+        className=""
         value={props.name}
         handleInput={props.handleInput}
       />
@@ -21,7 +18,7 @@ const Form = (props) => {
         name="author"
         label="Author"
         placeholder=" Brian Michael Bendis"
-        classname=""
+        className=""
         value={props.author}
         handleInput={props.handleInput}
       />
@@ -29,7 +26,7 @@ const Form = (props) => {
         name="isbn"
         label="Isbn"
         placeholder=" 0003"
-        classname=""
+        className=""
         value={props.isbn}
         handleInput={props.handleInput}
       />
@@ -38,13 +35,13 @@ const Form = (props) => {
         name="description"
         label="Description"
         placeholder=" Comic description..."
-        classname=""
+        className=""
         value={props.description}
         handleInput={props.handleInput}
       />
 
-      <input type="submit" value="Submit >" class="containerForm__submit" />
-    </form>
+      <input type="submit" value="Submit >" className="containerFill__submit" />
+    </section>
   );
 };
-export default Form;
+export default Fill;

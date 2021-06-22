@@ -1,12 +1,12 @@
 @import 'Variables';
 
-.containerForm {
+.containerFill {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
-.containerForm__submit {
+.containerFill__submit {
   margin-top: 20px;
   font-size: 16px;
   font-weight: 600;
@@ -16,7 +16,7 @@
 }
 
 @media all and (min-width: 768px) {
-  .containerForm__submit {
+  .containerFill__submit {
     font-size: 20px;
   }
 }
