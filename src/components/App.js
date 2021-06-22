@@ -19,7 +19,7 @@ import '../stylesheets/Reset.scss';
 function App() {
   // State
   const [comics] = useState(data);
-  // en este objeto guardamos los nuevos comics
+  // object to save new comics
   const [newdata, setNewdata] = useState({
     id: uuidv4(),
     name: '',
@@ -27,6 +27,24 @@ function App() {
     author: '',
     description: '',
   });
+  // object to update comics
+  const [updatedata, setUpdatedata] = useState({
+    name: '',
+    isbn: '',
+    author: '',
+    description: '',
+  });
+
+  const handleInput = (event) => {
+    setNewdata({
+      ...newdata,
+      [event.target.name]: event.target.value,
+    });
+    setUpdatedata({
+      ...updatedata,
+      [event.target.name]: event.target.value,
+    });
+  };
 
   // Each comic needs a link
   const renderComicDetail = (props) => {
@@ -46,8 +64,8 @@ function App() {
           <Route path="/" exact>
             <ComicList comics={comics} />
           </Route>
-          <Route path="/create" component={FormCreate} />
-          <Route path="/update" component={FormUpdate} />
+          <Route path="/create" component={FormCreate} handleInput={handleInput} />
+          <Route path="/update" component={FormUpdate} handleInput={handleInput} />
           <Route path="/comic/:id" render={renderComicDetail} />
         </Switch>
       </main>
