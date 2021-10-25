@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 20px;
   font-size: 12px;
   font-weight: 200;
@@ -27,6 +27,7 @@
 @media all and (min-width: 768px) {
   .footer {
     font-size: 16px;
+    margin-top: 50px;
     margin-bottom: 30px;
   }
   .footer__item {
@@ -37,45 +38,3 @@
 
 @media all and (min-width: 1280px) {
 }
-
-// @import 'Variables';
-
-// .containerFooter {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: center;
-//   padding: 30px;
-//   margin-top: 20px;
-// }
-
-// .containerFooter__icons {
-//   color: $color6;
-//   font-size: 14px;
-// }
-
-// .containerFooter__icons--link {
-//   margin: 10px;
-// }
-// .containerFooter__icons--link:hover {
-//   color: $color4;
-// }
-
-// .containerFooter__copy {
-//   color: $color6;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: center;
-//   font-size: 12px;
-//   margin-top: 5px;
-// }
-
-// @media all and (min-width: 768px) {
-//   .containerFooter {
-//     margin-top: 100px;
-//   }
-// }
-
-// @media all and (min-width: 1280px) {
-// }
