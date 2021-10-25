@@ -1,9 +1,10 @@
 // React
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-// Data
-import data from '../data/data.json';
+// Services
+import getDataFromApi from '../services/Api';
+
 // Components
 import Header from './Header';
 import CreateComic from './CreateComic';
@@ -15,9 +16,14 @@ import Footer from './Footer';
 import '../stylesheets/App.scss';
 import '../stylesheets/Reset.scss';
 
-function App() {
+const App = () => {
   // State
-  const [comics] = useState(data);
+  const [comics, setComics] = useState([]);
+
+  // Update data calling to API
+  useEffect(() => {
+    getDataFromApi().then((data) => setComics(data));
+  }, []); //empty array to avoid infinite renderings
 
   // Each comic needs a link
   const renderComicDetail = (props) => {
@@ -45,6 +51,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;
