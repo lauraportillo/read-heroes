@@ -1,5 +1,6 @@
 const getDataFromApi = () => {
-  return fetch('https://github.com/lauraportillo/api-express-comics/api/comics')
+  // return fetch('https://github.com/lauraportillo/api-express-comics/api/comics')
+  return fetch('http://localhost:8080/api/comics')
     .then((response) => response.json())
     .then((data) => {
       return data.results.map((comic) => {
