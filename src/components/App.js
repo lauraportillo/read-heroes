@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 // Services
-import getDataFromApi from '../services/Api';
+import getDataFromApi from '../services/getDataFromApi';
 
 // Components
 import Header from './Header';
@@ -15,6 +15,8 @@ import Footer from './Footer';
 // Styles
 import '../stylesheets/App.scss';
 import '../stylesheets/Reset.scss';
+
+console.log(getDataFromApi());
 
 const App = () => {
   // State
